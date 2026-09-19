@@ -1,0 +1,11 @@
+.env
+*.log
+target/
+node_modules/
+.idea/
+.vscode/
+data/
+work/
+
+.m2/
+.env

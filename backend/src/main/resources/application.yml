@@ -1,0 +1,12 @@
+spring:
+  datasource: {url: jdbc:h2:mem:stockpulse;MODE=PostgreSQL;DB_CLOSE_DELAY=-1, username: sa, password: ''}
+  jpa: {hibernate: {ddl-auto: create-drop}, open-in-view: false}
+app:
+  strategy: ${STRATEGY:rule}
+  demand-spike-multiplier: ${DEMAND_SPIKE_MULTIPLIER:3}
+  llm:
+    base-url: ${LLM_BASE_URL:}
+    api-key: ${LLM_API_KEY:}
+    cookie: ${LLM_COOKIE:}
+    product: ${LLM_PRODUCT:PC1}
+    model: ${LLM_MODEL:qwen-cursor}
