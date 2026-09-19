@@ -17,6 +17,10 @@ StockPulse helps an online store react before stock problems become expensive. W
 
 AI runs only when the active strategy is `AI` and the gateway credentials are configured. It receives product price, stock, reorder threshold, demand velocity, category context, and the trigger reason. It returns one paired recommendation for price and replenishment. The top of the console explicitly says either **AI advisor: ON · qwen-cursor**, **rule fallback**, or the source on each recommendation: **AI · qwen-cursor**, **RULE ENGINE**, or **RULE FALLBACK**.
 
+<img width="1897" height="740" alt="image" src="https://github.com/user-attachments/assets/b59ce4bf-9fa6-4046-934d-91cef5ecc8a2" />
+<img width="1890" height="857" alt="image" src="https://github.com/user-attachments/assets/256fae30-58e6-4870-8aeb-a8b38415cdca" />
+<img width="1892" height="857" alt="image" src="https://github.com/user-attachments/assets/68363068-a4af-4001-99c2-d703521ee37b" />
+
 ## Human workflow
 
 1. Click **Simulate sale** or receive a real stock/order update.
